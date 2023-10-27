@@ -6,6 +6,8 @@ metadata:
     - url: https://datahub.io
       title: Data Definitions
       icon: dashboard
+  annotations:
+    backstage.io/techdocs-ref: dir:./docs
 spec:
   type: service
   owner: user:guest
