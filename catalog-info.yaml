@@ -2,6 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "TestServiceFour"
+  links:
+    - url: https://datahub.io
+      title: Data Definitions
+      icon: dashboard
 spec:
   type: service
   owner: user:guest
